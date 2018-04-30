@@ -1,0 +1,176 @@
+2018/04/25-19:17:41.359507 428c RocksDB version: 5.9.2
+2018/04/25-19:17:41.359585 428c Git sha rocksdb_build_git_sha:@004237e62790320d8e630456cbeb6f4a1f3579c2@
+2018/04/25-19:17:41.359610 428c Compile date Mar 11 2018
+2018/04/25-19:17:41.359635 428c DB SUMMARY
+2018/04/25-19:17:41.359831 428c SST files in mordenSampleDb\blockchain dir, Total Num: 0, files: 
+2018/04/25-19:17:41.359856 428c Write Ahead Log file in mordenSampleDb\blockchain: 
+2018/04/25-19:17:41.359872 428c                         Options.error_if_exists: 0
+2018/04/25-19:17:41.359901 428c                       Options.create_if_missing: 1
+2018/04/25-19:17:41.359916 428c                         Options.paranoid_checks: 1
+2018/04/25-19:17:41.359930 428c                                     Options.env: 0000000002CB67C0
+2018/04/25-19:17:41.360458 428c                                Options.info_log: 0000000025275E50
+2018/04/25-19:17:41.360482 428c                Options.max_file_opening_threads: 16
+2018/04/25-19:17:41.360489 428c                              Options.statistics: 0000000000000000
+2018/04/25-19:17:41.360496 428c                               Options.use_fsync: 0
+2018/04/25-19:17:41.360503 428c                       Options.max_log_file_size: 0
+2018/04/25-19:17:41.360518 428c                  Options.max_manifest_file_size: 18446744073709551615
+2018/04/25-19:17:41.360525 428c                   Options.log_file_time_to_roll: 0
+2018/04/25-19:17:41.360531 428c                       Options.keep_log_file_num: 1000
+2018/04/25-19:17:41.360538 428c                    Options.recycle_log_file_num: 0
+2018/04/25-19:17:41.360544 428c                         Options.allow_fallocate: 1
+2018/04/25-19:17:41.360550 428c                        Options.allow_mmap_reads: 0
+2018/04/25-19:17:41.360557 428c                       Options.allow_mmap_writes: 0
+2018/04/25-19:17:41.360564 428c                        Options.use_direct_reads: 0
+2018/04/25-19:17:41.360570 428c                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/04/25-19:17:41.360576 428c          Options.create_missing_column_families: 0
+2018/04/25-19:17:41.360582 428c                              Options.db_log_dir: 
+2018/04/25-19:17:41.360589 428c                                 Options.wal_dir: mordenSampleDb\blockchain
+2018/04/25-19:17:41.360596 428c                Options.table_cache_numshardbits: 6
+2018/04/25-19:17:41.360603 428c                      Options.max_subcompactions: 1
+2018/04/25-19:17:41.360609 428c                  Options.max_background_flushes: 2
+2018/04/25-19:17:41.360615 428c                         Options.WAL_ttl_seconds: 0
+2018/04/25-19:17:41.360623 428c                       Options.WAL_size_limit_MB: 0
+2018/04/25-19:17:41.360629 428c             Options.manifest_preallocation_size: 4194304
+2018/04/25-19:17:41.360635 428c                     Options.is_fd_close_on_exec: 1
+2018/04/25-19:17:41.360642 428c                   Options.advise_random_on_open: 1
+2018/04/25-19:17:41.360648 428c                    Options.db_write_buffer_size: 0
+2018/04/25-19:17:41.360654 428c                    Options.write_buffer_manager: 0000000025292A70
+2018/04/25-19:17:41.360661 428c         Options.access_hint_on_compaction_start: 1
+2018/04/25-19:17:41.360667 428c  Options.new_table_reader_for_compaction_inputs: 0
+2018/04/25-19:17:41.360673 428c               Options.compaction_readahead_size: 0
+2018/04/25-19:17:41.360680 428c           Options.random_access_max_buffer_size: 1048576
+2018/04/25-19:17:41.360686 428c                      Options.use_adaptive_mutex: 0
+2018/04/25-19:17:41.360693 428c                            Options.rate_limiter: 0000000000000000
+2018/04/25-19:17:41.360699 428c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/04/25-19:17:41.360705 428c                       Options.wal_recovery_mode: 2
+2018/04/25-19:17:41.360712 428c                  Options.enable_thread_tracking: 0
+2018/04/25-19:17:41.360718 428c                  Options.enable_pipelined_write: 0
+2018/04/25-19:17:41.360724 428c         Options.allow_concurrent_memtable_write: 1
+2018/04/25-19:17:41.360731 428c      Options.enable_write_thread_adaptive_yield: 1
+2018/04/25-19:17:41.360788 428c             Options.write_thread_max_yield_usec: 100
+2018/04/25-19:17:41.360798 428c            Options.write_thread_slow_yield_usec: 3
+2018/04/25-19:17:41.360805 428c                               Options.row_cache: None
+2018/04/25-19:17:41.360811 428c                              Options.wal_filter: None
+2018/04/25-19:17:41.360818 428c             Options.avoid_flush_during_recovery: 0
+2018/04/25-19:17:41.360824 428c             Options.allow_ingest_behind: 0
+2018/04/25-19:17:41.360830 428c             Options.preserve_deletes: 0
+2018/04/25-19:17:41.360835 428c             Options.concurrent_prepare: 0
+2018/04/25-19:17:41.360842 428c             Options.manual_wal_flush: 0
+2018/04/25-19:17:41.360847 428c             Options.seq_per_batch: 0
+2018/04/25-19:17:41.360853 428c             Options.max_background_jobs: 2
+2018/04/25-19:17:41.360859 428c             Options.max_background_compactions: 4
+2018/04/25-19:17:41.360866 428c             Options.avoid_flush_during_shutdown: 0
+2018/04/25-19:17:41.360872 428c           Options.writable_file_max_buffer_size: 1048576
+2018/04/25-19:17:41.360879 428c             Options.delayed_write_rate : 16777216
+2018/04/25-19:17:41.360886 428c             Options.max_total_wal_size: 0
+2018/04/25-19:17:41.360892 428c             Options.delete_obsolete_files_period_micros: 21600000000
+2018/04/25-19:17:41.360902 428c                   Options.stats_dump_period_sec: 600
+2018/04/25-19:17:41.360909 428c                          Options.max_open_files: 32
+2018/04/25-19:17:41.360915 428c                          Options.bytes_per_sync: 0
+2018/04/25-19:17:41.360921 428c                      Options.wal_bytes_per_sync: 0
+2018/04/25-19:17:41.360928 428c Compression algorithms supported:
+2018/04/25-19:17:41.360955 428c 	Snappy supported: 0
+2018/04/25-19:17:41.360961 428c 	Zlib supported: 1
+2018/04/25-19:17:41.360967 428c 	Bzip supported: 0
+2018/04/25-19:17:41.360972 428c 	LZ4 supported: 1
+2018/04/25-19:17:41.360978 428c 	ZSTDNotFinal supported: 0
+2018/04/25-19:17:41.360984 428c 	ZSTD supported: 0
+2018/04/25-19:17:41.360996 428c Fast CRC32 supported: Supported on x86Not supported on x86
+2018/04/25-19:17:41.361497 428c [d:\ws\rocksdb.ws\rocksdb\db\db_impl_open.cc:227] Creating manifest 1 
+2018/04/25-19:17:41.554171 428c [d:\ws\rocksdb.ws\rocksdb\db\version_set.cc:2835] Recovering from manifest file: MANIFEST-000001
+2018/04/25-19:17:41.555163 428c [d:\ws\rocksdb.ws\rocksdb\db\column_family.cc:413] --------------- Options for column family [default]:
+2018/04/25-19:17:41.555181 428c               Options.comparator: leveldb.BytewiseComparator
+2018/04/25-19:17:41.555189 428c           Options.merge_operator: None
+2018/04/25-19:17:41.555195 428c        Options.compaction_filter: None
+2018/04/25-19:17:41.555201 428c        Options.compaction_filter_factory: None
+2018/04/25-19:17:41.555208 428c         Options.memtable_factory: SkipListFactory
+2018/04/25-19:17:41.555214 428c            Options.table_factory: BlockBasedTable
+2018/04/25-19:17:41.555258 428c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000002C967E0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000024F92EE0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+2018/04/25-19:17:41.555272 428c        Options.write_buffer_size: 67108864
+2018/04/25-19:17:41.555331 428c  Options.max_write_buffer_number: 2
+2018/04/25-19:17:41.555340 428c          Options.compression: LZ4
+2018/04/25-19:17:41.555347 428c                  Options.bottommost_compression: ZSTD
+2018/04/25-19:17:41.555354 428c       Options.prefix_extractor: rocksdb.FixedPrefix.16
+2018/04/25-19:17:41.555360 428c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/04/25-19:17:41.555366 428c             Options.num_levels: 7
+2018/04/25-19:17:41.555372 428c        Options.min_write_buffer_number_to_merge: 1
+2018/04/25-19:17:41.555378 428c     Options.max_write_buffer_number_to_maintain: 0
+2018/04/25-19:17:41.555384 428c            Options.compression_opts.window_bits: -14
+2018/04/25-19:17:41.555391 428c                  Options.compression_opts.level: -1
+2018/04/25-19:17:41.555397 428c               Options.compression_opts.strategy: 0
+2018/04/25-19:17:41.555403 428c         Options.compression_opts.max_dict_bytes: 0
+2018/04/25-19:17:41.555410 428c      Options.level0_file_num_compaction_trigger: 4
+2018/04/25-19:17:41.555416 428c          Options.level0_slowdown_writes_trigger: 20
+2018/04/25-19:17:41.555422 428c              Options.level0_stop_writes_trigger: 36
+2018/04/25-19:17:41.555428 428c                   Options.target_file_size_base: 67108864
+2018/04/25-19:17:41.555434 428c             Options.target_file_size_multiplier: 1
+2018/04/25-19:17:41.555440 428c                Options.max_bytes_for_level_base: 268435456
+2018/04/25-19:17:41.555447 428c Options.level_compaction_dynamic_level_bytes: 1
+2018/04/25-19:17:41.555453 428c          Options.max_bytes_for_level_multiplier: 10.000000
+2018/04/25-19:17:41.555467 428c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/04/25-19:17:41.555473 428c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/04/25-19:17:41.555479 428c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/04/25-19:17:41.555485 428c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/04/25-19:17:41.555491 428c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/04/25-19:17:41.555498 428c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/04/25-19:17:41.555504 428c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/04/25-19:17:41.555510 428c       Options.max_sequential_skip_in_iterations: 8
+2018/04/25-19:17:41.555516 428c                    Options.max_compaction_bytes: 1677721600
+2018/04/25-19:17:41.555522 428c                        Options.arena_block_size: 8388608
+2018/04/25-19:17:41.555528 428c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/04/25-19:17:41.555535 428c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/04/25-19:17:41.555541 428c       Options.rate_limit_delay_max_milliseconds: 100
+2018/04/25-19:17:41.555547 428c                Options.disable_auto_compactions: 0
+2018/04/25-19:17:41.555554 428c                        Options.compaction_style: kCompactionStyleLevel
+2018/04/25-19:17:41.555561 428c                          Options.compaction_pri: kByCompensatedSize
+2018/04/25-19:17:41.555567 428c Options.compaction_options_universal.size_ratio: 1
+2018/04/25-19:17:41.555573 428c Options.compaction_options_universal.min_merge_width: 2
+2018/04/25-19:17:41.555579 428c Options.compaction_options_universal.max_merge_width: 4294967295
+2018/04/25-19:17:41.555586 428c Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/04/25-19:17:41.555592 428c Options.compaction_options_universal.compression_size_percent: -1
+2018/04/25-19:17:41.555599 428c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/04/25-19:17:41.555605 428c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/04/25-19:17:41.555612 428c Options.compaction_options_fifo.allow_compaction: 0
+2018/04/25-19:17:41.555618 428c Options.compaction_options_fifo.ttl: 0
+2018/04/25-19:17:41.555624 428c                   Options.table_properties_collectors: 
+2018/04/25-19:17:41.555630 428c                   Options.inplace_update_support: 0
+2018/04/25-19:17:41.555637 428c                 Options.inplace_update_num_locks: 10000
+2018/04/25-19:17:41.555645 428c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/04/25-19:17:41.555652 428c   Options.memtable_huge_page_size: 0
+2018/04/25-19:17:41.555658 428c                           Options.bloom_locality: 0
+2018/04/25-19:17:41.555665 428c                    Options.max_successive_merges: 0
+2018/04/25-19:17:41.555671 428c                Options.optimize_filters_for_hits: 0
+2018/04/25-19:17:41.555677 428c                Options.paranoid_file_checks: 0
+2018/04/25-19:17:41.555683 428c                Options.force_consistency_checks: 0
+2018/04/25-19:17:41.555689 428c                Options.report_bg_io_stats: 0
+2018/04/25-19:17:41.555879 428c [d:\ws\rocksdb.ws\rocksdb\db\version_set.cc:3100] Recovered from manifest file:mordenSampleDb\blockchain/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0
+2018/04/25-19:17:41.555894 428c [d:\ws\rocksdb.ws\rocksdb\db\version_set.cc:3108] Column family [default] (ID 0), log number is 0
+2018/04/25-19:17:41.584085 428c [d:\ws\rocksdb.ws\rocksdb\db\db_impl_open.cc:1150] DB pointer 0000000002CCF9B0

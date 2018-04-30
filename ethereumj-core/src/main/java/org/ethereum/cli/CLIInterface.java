@@ -37,7 +37,7 @@ import java.util.Map;
 @Component
 public class CLIInterface {
 
-    private CLIInterface() {
+    private CLIInterface() {  
     }
 
     private static final Logger logger = LoggerFactory.getLogger("general");

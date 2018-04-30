@@ -32,8 +32,10 @@ import java.net.URISyntaxException;
  * @since 14.11.2014
  */
 public class Start {
+	
 
-    public static void main(String args[]) throws IOException, URISyntaxException {
+
+    public static void main(String args[]) throws Exception, URISyntaxException {
         CLIInterface.call(args);
 
         final SystemProperties config = SystemProperties.getDefault();

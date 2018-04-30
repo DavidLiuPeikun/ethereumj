@@ -111,7 +111,7 @@ public class EthereumImpl implements Ethereum, SmartLifecycle {
     public EthereumImpl(final SystemProperties config, final CompositeEthereumListener compositeEthereumListener) {
         this.compositeEthereumListener = compositeEthereumListener;
         this.config = config;
-        System.out.println();
+        System.out.println("TESTaaa");
         this.compositeEthereumListener.addListener(gasPriceTracker);
         gLogger.info("EthereumJ node started: enode://" + Hex.toHexString(config.nodeId()) + "@" + config.externalIp() + ":" + config.listenPort());
     }
