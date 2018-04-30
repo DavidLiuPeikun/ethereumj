@@ -188,13 +188,13 @@ public class UdpTest {
         }
     }
 
-    @Ignore
+    
     @Test
     public void server() throws Exception {
         startServer();
     }
 
-    @Ignore
+    
     @Test
     public void client() throws Exception {
         startClient();
@@ -203,7 +203,8 @@ public class UdpTest {
     public static String bindIp() {
         String bindIp;
             try {
-                Socket s = new Socket("www.google.com", 80);
+                //Socket s = new Socket("www.google.com", 80);
+                Socket s = new Socket("127.0.0.1", 80);
                 bindIp = s.getLocalAddress().getHostAddress();
                 System.out.printf("UDP local bound to: %s%n", bindIp);
             } catch (IOException e) {

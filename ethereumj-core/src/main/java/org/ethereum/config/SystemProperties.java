@@ -764,7 +764,7 @@ public class SystemProperties {
                 logger.info("External IP wasn't set, using checkip.amazonaws.com to identify it...");
                 try {
                     BufferedReader in = new BufferedReader(new InputStreamReader(
-                            new URL("http://checkip.amazonaws.com").openStream()));
+                            new URL("http://checkip.amazonaws.com").openStream()));   
                     externalIp = in.readLine();
                     if (externalIp == null || externalIp.trim().isEmpty()) {
                         throw new IOException("Invalid address: '" + externalIp + "'");

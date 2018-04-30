@@ -35,8 +35,8 @@ public class ConfigTest {
         Config config = ConfigFactory.parseResources("ethereumj.conf");
         System.out.println(config.root().render(ConfigRenderOptions.defaults().setComments(false)));
         for (Map.Entry<String, ConfigValue> entry : config.entrySet()) {
-//            System.out.println("Name:  " + entry.getKey());
-//            System.out.println(entry);
+            System.out.println("Name:  " + entry.getKey());
+            System.out.println(entry);
         }
         System.out.println("peer.listen.port: " + config.getInt("peer.listen.port"));
         System.out.println("peer.discovery.ip.list: " + config.getAnyRefList("peer.discovery.ip.list"));
